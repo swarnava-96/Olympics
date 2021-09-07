@@ -15,8 +15,8 @@ import seaborn as sns
 import plotly.figure_factory as ff
 
 # Lets read the datasets
-df = pd.read_csv("athlete_events.csv")
-df1 = pd.read_csv("noc_regions.csv")
+df = pd.read_csv("https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results?select=athlete_events.csv")
+df1 = pd.read_csv("https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv")
 
 df = preprocessor.preprocess(df, df1)
 
