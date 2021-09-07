@@ -4,6 +4,8 @@ https://olympicseda-sm.herokuapp.com/
 
 ![Screenshot (135)](https://user-images.githubusercontent.com/75041273/132350953-c2e82abd-e718-41cf-a959-54370e26e39c.png)
 ![Screenshot (136)](https://user-images.githubusercontent.com/75041273/132350800-961f5ddb-b7cc-44dd-ad86-c1391021f01d.png)
+![Screenshot (144)](https://user-images.githubusercontent.com/75041273/132351831-c192620b-7a2e-4391-8eee-31830c153cca.png)
+![Screenshot (145) (1)](https://user-images.githubusercontent.com/75041273/132352032-371cde59-47b1-48c3-a8b6-9fc575eebbc3.png)
 ![Screenshot (137)](https://user-images.githubusercontent.com/75041273/132351014-5af80e25-4731-4332-81fd-0611a1b26dc7.png)
 ![Screenshot (138)](https://user-images.githubusercontent.com/75041273/132351034-e8910a45-d8b3-4e4d-955e-25e06035cdcf.png)
 ![Screenshot (140)](https://user-images.githubusercontent.com/75041273/132351055-e324b880-54a9-40ff-96b7-16cb60b55c1e.png)
