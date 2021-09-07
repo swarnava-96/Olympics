@@ -4,7 +4,8 @@
 
 #### Dataset: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
 
-#### About the project
+#### About the project:
+The main goal of this project is to analyse the 120 years of Olympics dataset and to create a POC. The dataset was collected from Kaggle which contains two csv files. In the "athlete_events.csv" each row is an athlete-event, that has features like name, sex, height, weight, sport, team, etc. The other dataset, "noc_regions.csv" contains information about NOC (National Olympic Committee, 3 letter code), Country name and notes. We have data till 2016 Olympics. I have considered only Summer Olympics in this entire project and based on that all the analysis were performed. I have used a jupyter Notebook file for the entire analysis and three python files for creating the application. App was created using Streamlit. All the functions present in the python files are also there in the jupyter notebook which will give a clear understanding about the entire code.
 
 ## Installation
 The Code is written in Python 3.7.3 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
