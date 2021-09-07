@@ -3,6 +3,7 @@
 #### Overview: A streamlit app that analysis the data of 120 years of Summer Olympics games.
 
 #### Dataset: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
+#### Demo view: https://olympicseda-sm.herokuapp.com/
 
 #### About the project:
 The main goal of this project is to analyse the 120 years of Olympics dataset and to create a POC. The dataset was collected from Kaggle which contains two csv files. In the "athlete_events.csv" each row is an athlete-event, that has features like name, sex, height, weight, sport, team, etc. The other dataset, "noc_regions.csv" contains information about NOC (National Olympic Committee, 3 letter code), Country name and notes. We have data till 2016 Olympics. I have considered only Summer Olympics in this entire project and based on that all the analysis were performed. I have used a jupyter Notebook file for the entire analysis and three python files for creating the application. App was created using Streamlit. All the functions present in the python files are also there in the jupyter notebook which will give a clear understanding about the entire code. The analysis was divided into four parts like Medall Tally, Overall Analysis, Country wise Analysis and Athlete wise Analysis. There were some problems with the dataset due to historical reasons, which I tried to handle with utmost efficiency. For medal tally, I have used one hot encoding to get individual features for Gold, Silver and Bronze. Here, according to my analysis USA won 2472 Gold Medals but in reality they won around 1022 Gold medals. When I considerd India it was comming somewhere around rank 25 with 131 Gold Medals where as in reality India won 9 Gold Medals till 2016. It was a problem with the dataset as we have athlete wise data. A team comprising of 11 players winning a Gold medal was considered a Gold Medal won by every player. Hence, this increased the medal counts. To resolve this issue, I removed the duplicate rows from the features Team, NOC, Games, Year, City, Sports and Events. Then medal tally was counted by grouping NOC with Gold, Silver and Bronze medals. Still some amount of exceptions were present mainly due to the reason of hstorical partitions of countries or name changes.  Here, in the dataset, 29 times Olympics was held before 2021. But the fact is, it was held 28 times according to records. The reason here is that there was an Olympic that was held back in 1906. But due to some reasons that Olympic game was no more considered. So I had to take 28 for our further analysis.
@@ -50,7 +51,6 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 ```
 
 ## Front end using Streamlit
-Demo view: https://olympicseda-sm.herokuapp.com/
 
 ![Screenshot (135)](https://user-images.githubusercontent.com/75041273/132350953-c2e82abd-e718-41cf-a959-54370e26e39c.png)
 ![Screenshot (136)](https://user-images.githubusercontent.com/75041273/132350800-961f5ddb-b7cc-44dd-ad86-c1391021f01d.png)
