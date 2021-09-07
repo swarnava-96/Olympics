@@ -64,6 +64,14 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 ![Screenshot (142)](https://user-images.githubusercontent.com/75041273/132351100-4f52f6d0-8fd0-4b58-9b00-ae40ef998e1e.png)
 ![Screenshot (143)](https://user-images.githubusercontent.com/75041273/132351168-d94d8bb0-5854-414a-b3a2-d7dce8ac9f3e.png)
 
+## Further Changes to be Done
+- [ ] Including Winter Olympics.
+- [ ] 2021 Olympics data.
+- [ ] Deploying the Web Application on Cloud.
+     - [ ] Google Cloud 
+     - [ ] Azure
+     - [ ] AWS EC2
+
 ## Technology Stack
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" /> <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white"/> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" /> <img src="https://img.shields.io/badge/matplotlib-342B029.svg?&style=for-the-badge&logo=matplotlib&logoColor=white"/> <img src="https://img.shields.io/badge/Spyder-838485?style=for-the-badge&logo=spyder%20ide&logoColor=maroon" /> <img src="https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white" /> <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />
